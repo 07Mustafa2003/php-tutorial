@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="process.php">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+    <!-- Form Submission: -->
+<!-- When a user submits a form, the form data is sent 
+    to a server-side script specified in the form's action
+     attribute. In the above example, the form data will 
+     be sent to a file named process.php -->
+    
+
+
+     <!-- Handling Form Data with PHP: -->
+<!-- In the PHP script specified in the form's action attribute, you can access the form data using the $_POST or $_GET superglobal arrays, depending on the form's method (post or get). -->
+<!-- $username = $_POST['username'];
+$password = $_POST['password']; -->
+
+</body>
+</html>
